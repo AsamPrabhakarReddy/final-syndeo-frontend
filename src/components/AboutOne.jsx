@@ -7,7 +7,7 @@ import AboutThree from "../assets/lotties/AboutThree.json";
 
 const FeaturesOne = () => {
   return (
-    <div className="bg-white">
+    <div role="aboutOne" className="bg-white">
       <div className="relative pt-40 pb-4">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -39,8 +39,9 @@ const FeaturesOne = () => {
                   <div className="">
                     <div className="rounded-xl  bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] h-88">
                       <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
+                        <div role="lottie1" className="my-4">
                           <Lottie
+                            
                             animationData={AboutOne}
                             loop={true}
                             className="w-[310px] h-[200px]"
@@ -67,8 +68,9 @@ const FeaturesOne = () => {
                   <div className="">
                     <div className="rounded-xl bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col h-88">
                       <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
+                        <div role="lottie2" className="my-4">
                           <Lottie
+                            
                             animationData={AboutTwo}
                             loop={true}
                             className="w-[310px] h-[200px]"
@@ -95,8 +97,9 @@ const FeaturesOne = () => {
                   <div className="">
                     <div className="rounded-xl bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)] flex flex-col h-88">
                       <div className="flex flex-col justify-center items-center">
-                        <div className="my-4">
+                        <div role="lottie3" className="my-4">
                           <Lottie
+                            
                             animationData={AboutThree}
                             loop={true}
                             className="w-[310px] h-[200px]"

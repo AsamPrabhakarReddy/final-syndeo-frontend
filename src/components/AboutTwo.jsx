@@ -3,7 +3,7 @@ import Calendar from "../assets/lotties/Calendar.json";
 
 const AboutTwo = () => {
   return (
-    <div className="bg-white">
+    <div role="aboutTwo" className="bg-white">
       <div className="relative pt-8 pb-8">
         <div className="w-full">
           <div className="w-full px-4 mx-auto max-w-[1400px]">
@@ -24,7 +24,7 @@ const AboutTwo = () => {
               </div>
               <div className="">
                 <div className="w-full space-y-8">
-                  <div className=" flex items-center justify-center ">
+                  <div role="title" className=" flex items-center justify-center ">
                     <h3 className="lg:text-start text-center lg:text-4xl text-3xl font-bold tracking-normal text-colorThree dark:text-black">
                       Why Syndèo is superior than our{" "}
                       <span className="text-colorFour">competitors?</span>

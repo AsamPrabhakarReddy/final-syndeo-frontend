@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed  md:z-20 z-20 bg-white">
+    <div data-testid="nav" role="navbar" className="w-full fixed  md:z-20 z-20 bg-white">
       <div className="w-full mx-auto max-w-[1400px]">
         <div className="justify-center w-full ">
           <div className="text-black flex justify-between md:shadow-none shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] h-24 w-full md:top-0 top-0 bg-white max-w-[1400px] mx-auto">

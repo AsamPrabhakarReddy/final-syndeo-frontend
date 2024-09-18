@@ -6,7 +6,7 @@ import { FaGoogle } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-footer">
+    <div role="footer" className="bg-footer">
       <footer className="text-base">
         <div className="w-full max-w-screen px-4 py-12 mx-auto sm:px-6 lg:py-16 lg:px-8">
           <div className="pb-8 mb-8 border-b border-gray-200">
