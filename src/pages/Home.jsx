@@ -6,12 +6,13 @@ import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
 import Carousel from "../components/Carousel";
 import Final from "../components/Final";
-
+import Calendar from "../components/Calendar";
 function Home() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Calendar/>
       <TrackRecord />
       <Carousel />
       <FAQ />
