@@ -39,7 +39,7 @@ const Carousel = () => {
                 </div>
 
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4 my-4">
-                  <div className="flex flex-col gap-2  justify-center items-center">
+                  <div role="CarouselGrid1" className="flex flex-col gap-2  justify-center items-center">
                     <Lottie
                       animationData={CarouselFour}
                       loop={true}
@@ -50,7 +50,7 @@ const Carousel = () => {
                     </h1>
                     <p>Your own mobile-optimised booking</p>
                   </div>
-                  <div className="flex flex-col gap-2 justify-center items-center">
+                  <div role="CarouselGrid2" className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
                       animationData={AboutTwo}
                       loop={true}
@@ -61,7 +61,7 @@ const Carousel = () => {
                     </h1>
                     <p>Your own mobile-optimised booking</p>
                   </div>
-                  <div className="flex flex-col gap-2 justify-center items-center">
+                  <div role="CarouselGrid3" className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
                       animationData={TwoLottie}
                       loop={true}
@@ -75,7 +75,7 @@ const Carousel = () => {
                 </div>
 
                 <div className="grid md:grid-cols-3 grid-cols-1 gap-4 my-4">
-                  <div className="flex flex-col gap-2  justify-center items-center">
+                  <div role="CarouselGrid4" className="flex flex-col gap-2  justify-center items-center">
                     <Lottie
                       animationData={CarouselOne}
                       loop={true}
@@ -86,7 +86,7 @@ const Carousel = () => {
                     </h1>
                     <p>Your own mobile-optimised booking</p>
                   </div>
-                  <div className="flex flex-col gap-2 justify-center items-center">
+                  <div role="CarouselGrid5" className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
                       animationData={CarouselTwo}
                       loop={true}
@@ -97,7 +97,7 @@ const Carousel = () => {
                     </h1>
                     <p>Your own mobile-optimised booking</p>
                   </div>
-                  <div className="flex flex-col gap-2 justify-center items-center">
+                  <div role="CarouselGrid6" className="flex flex-col gap-2 justify-center items-center">
                     <Lottie
                       animationData={CarouselThree}
                       loop={true}
