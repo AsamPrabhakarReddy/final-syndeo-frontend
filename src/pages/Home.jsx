@@ -12,7 +12,7 @@ function Home() {
     <div>
       <Navbar />
       <Hero />
-      <Calendar/>
+      {/* <Calendar/> */}
       <TrackRecord />
       <Carousel />
       <FAQ />

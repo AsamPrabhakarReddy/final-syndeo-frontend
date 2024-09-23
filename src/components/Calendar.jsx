@@ -90,7 +90,7 @@ function Calendar() {
       </div> */}
       <div
         className={`max-w-[1400px] mx-auto h-[calc(100vh-75px)] mt-4 mb-10 ${
-          showModal ? "opacity-50 pointer-events-none" : "opacity-100"
+          showModal ? "filter blur-sm" : "opacity-100"
         }`}
       >
         <FullCalendar
@@ -109,7 +109,7 @@ function Calendar() {
 
       {showModal && (
         <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center mt-[10px]">
-          <div className="bg-white p-8 rounded shadow-lg max-w-md w-full">
+          <div className="bg-white p-8   rounded shadow-lg max-w-md w-full">
             <h1 className="text-center text-3xl font-bold">Add Event Details</h1>
             <form onSubmit={handleSubmit} className="flex flex-col p-4 gap-2">
               <input
