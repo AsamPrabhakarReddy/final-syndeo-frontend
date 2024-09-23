@@ -74,7 +74,7 @@ const Hero = () => {
 
   
   return (
-    <div className=" p-8 bg-gray-600 rounded-lg pt-28  lg:h-[calc(100vh-50px)] h-[1380px] max-w-[1400px] lg:mx-auto mx-4">
+    <div role="hero" className=" p-8 bg-gray-600 rounded-lg pt-28  lg:h-[calc(100vh-50px)] h-[1380px] max-w-[1400px] lg:mx-auto mx-4">
       <div className="md:grid grid-cols-2 p-4">
                 <div className="flex flex-col gap-8 w-full">
                         <div className=" flex items-center lg:justify-start justify-center mt-4 mx-3">
