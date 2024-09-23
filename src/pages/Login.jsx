@@ -154,6 +154,7 @@ function Login() {
                               </a>
                             </div>
                             <button
+                              role="button"
                               type="submit"
                               className="w-full text-white bg-colorFour text-base hover:bg-colorFour transition ease-in-out duration-1000 focus:outline-none font-semibold rounded-lg px-5 py-2.5 text-center cursor-pointer"
                             >

@@ -108,7 +108,7 @@ function Calendar() {
       </div>
 
       {showModal && (
-        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center">
+        <div className="fixed inset-0 bg-gray-600 bg-opacity-50 flex justify-center items-center mt-[10px]">
           <div className="bg-white p-8 rounded shadow-lg max-w-md w-full">
             <h1 className="text-center text-3xl font-bold">Add Event Details</h1>
             <form onSubmit={handleSubmit} className="flex flex-col p-4 gap-2">
@@ -180,6 +180,9 @@ function Calendar() {
                 >
                   Submit
                 </button>
+              </div>
+              <div className="text-right">
+                  <p>Copyright © 2024 Syndèo. All rights reserved.</p>
               </div>
             </form>
           </div>
