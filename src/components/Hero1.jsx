@@ -85,7 +85,7 @@ function Hero1() {
   };
 
   return (
-    <div className=" rounded-lg pt-28  lg:h-[calc(100vh-150px)] h-[1120px] max-w-[1400px] lg:mx-auto mx-4">
+    <div className=" rounded-lg pt-28  lg:h-[calc(100vh-80px)] h-[1200px] max-w-[1400px] lg:mx-auto mx-4">
       <div className="lg:grid grid-cols-2 gap-0">
         {/* Left side (text content) */}
         <div className="flex flex-col  gap-2 mb-5">
