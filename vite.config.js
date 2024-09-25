@@ -6,6 +6,7 @@ export default defineConfig({
   build: {
     target: 'esnext', // Use modern JavaScript features
     minify: 'esbuild', // Use esbuild for faster builds
+    assetsInclude: ['**/*.PNG'], 
     rollupOptions: {
       output: {
         manualChunks: undefined, // Can be configured based on your project needs

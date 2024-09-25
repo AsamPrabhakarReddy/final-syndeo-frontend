@@ -1,3 +1,94 @@
 body {
   font-family: "Outfit", sans-serif;
 }
+@keyframes scroll {
+  0%, 20% {
+    transform: translateX(0); /* Stay on first item */
+  }
+  25%, 45% {
+    transform: translateX(-100%); /* Scroll to second item */
+  }
+  50%, 70% {
+    transform: translateX(-200%); /* Scroll to third item */
+  }
+  75%, 100% {
+    transform: translateX(0); /* Return to first */
+  }
+}
+
+.animate-scroll {
+  animation: scroll 5s ease-in-out infinite; /* Total scroll duration, adjust for pause */
+  display: flex;
+  white-space: nowrap;
+  gap: 16px;
+}
+
+@keyframes circular-vertical-scroll {
+    0% {
+      transform: translateY(0); /* Show first item */
+    }
+    33% {
+      transform: translateY(-120px); /* Scroll to second item */
+    }
+    66% {
+      transform: translateY(-240px); /* Scroll to third item */
+    }
+    100% {
+      transform: translateY(0); /* Return to first */
+    }
+  }
+  
+  .animate-circular-vertical-scroll {
+    animation: circular-vertical-scroll 6s linear infinite;
+  }
+  
+  
+  @keyframes scrollX {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  @keyframes scrollXReverse {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  .scroll-left {
+    display: flex;
+    flex-direction: row;
+    animation: scrollX 20s linear infinite;
+  }
+  
+  .scroll-right {
+    display: flex;
+    flex-direction: row;
+    animation: scrollXReverse 20s linear infinite;
+  }
+  
+  .scroll-container {
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 40px;
+    font-size: 18px;
+    color: #333;
+  }
+  
