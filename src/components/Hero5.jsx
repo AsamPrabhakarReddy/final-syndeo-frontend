@@ -17,7 +17,8 @@ function Hero5()
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
                         <p className="lg:block hidden"> ------------------------------------------</p>
-                        <p className="lg:hidden "> -----------------------------------------------</p>
+                        <hr className="lg:hidden h-2 bg-black rounded-lg mx-2 dotted"></hr>
+                        {/* <p className="lg:hidden "> -----------------------------------------------</p> */}
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Scheduling for your teams</h1>
@@ -36,7 +37,8 @@ function Hero5()
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
                         <p className="lg:block hidden"> ------------------------------------------</p>
-                        <p className="lg:hidden "> -----------------------------------------------</p>
+                        <hr className="lg:hidden h-2 bg-black rounded-lg mx-2 dotted"></hr>
+                        {/* <p className="lg:hidden "> -----------------------------------------------</p> */}
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Route bookers to the right person</h1>
@@ -55,7 +57,8 @@ function Hero5()
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
                         <p className="lg:block hidden"> ------------------------------------------</p>
-                        <p className="lg:hidden "> -----------------------------------------------</p>
+                        <hr className="lg:hidden h-2 bg-black rounded-lg mx-2 dotted"></hr>
+                        {/* <p className="lg:hidden "> -----------------------------------------------</p> */}
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Avoid meeting overload</h1>

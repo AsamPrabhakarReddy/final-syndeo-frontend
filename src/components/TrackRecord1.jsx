@@ -4,12 +4,16 @@ import { Clock8, Earth, CalendarCheck, Laptop } from "lucide-react";
 function TrackRecord1()
 {
     return(
-        <div className="max-w-[1400px] h-[200px] p-4 mx-auto lg:mt-[70px]">
-            <div className="grid grid-cols-5">
-                <button className=" bg-black text-white rounded-full hover:text-2xl">
+        <div className="max-w-[1400px] lg:h-[200px] h-[320px] p-4 mx-auto lg:mt-[70px] mt-0">
+             <div className="lg:hidden block lg:mb-0 mb-4"> 
+                 <button className=" w-full bg-black text-white rounded-full hover:bg-green-600 lg:p-0 p-4 m-2">
                     Get Started Now
                 </button>
-
+            </div>  
+            <div className="grid lg:grid-cols-5 grid-cols-2 ">
+                <button className="lg:block hidden bg-black text-white rounded-full hover:bg-green-600 lg:p-0 p-4 m-2">
+                    Get Started Now
+                </button>
                 <div  className=" flex flex-col justify-center items-center">
                     <div role="TRgrid1Logo" className="my-2">
                       <Earth className="md:w-[50px] md:h-[50px] w-[35px] h-[35px] text-colorFour" />
@@ -53,8 +57,10 @@ function TrackRecord1()
                       </h1>
                     </div>
                   </div>
-            </div>
-        </div>
+                </div>
+                </div>
+           
+       
     )
 }
 
