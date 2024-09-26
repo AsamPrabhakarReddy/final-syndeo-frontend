@@ -2,7 +2,7 @@
 
 function ScrollData(){
     return(
-        <div className="max-w-[1400px] lg:mx-auto mx-2">
+        <div role="ScrollData" className="max-w-[1400px] lg:mx-auto mx-2">
           <div class="scroll-container bg-black rounded-2xl text-white p-4 flex flex-col gap-2">
             <ul class="scroll-left text-white">
                 <li className="text-white font-semibold text-[20px]">Available in 45 languages</li>

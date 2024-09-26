@@ -14,24 +14,49 @@ import Hero3 from "../components/Hero3";
 import Hero4 from "../components/Hero4";
 import Hero5 from "../components/Hero5";
 import ScrollData from "../components/ScrollData";
+import { useEffect, useState } from "react";
 function Home() {
+      const [isModalOpen, setIsModalOpen] = useState(false);
+
+      useEffect(() => {
+        if (isModalOpen) {
+          document.body.style.overflow = "hidden"; // Disable scrolling
+        } else {
+          document.body.style.overflow = ""; // Restore scrolling
+        }
+
+        return () => {
+          document.body.style.overflow = ""; // Clean up on component unmount
+        };
+      }, [isModalOpen]);
+
   return (
     <div>
       <Navbar />
-      <Hero1/>
-      <TrackRecord1/>
-      <Hero2/>
-      <Hero3/>
-      <Hero4/>
-      <Hero5/>
-      <ScrollData/>
-      {/* <Hero />
-      <Calendar/>
-      <TrackRecord /> */}
-      <Carousel />
-      <FAQ />
-      <Final/>
-      <Footer />
+      {isModalOpen ? (
+        <Hero1
+          onOpenModal={() => setIsModalOpen(true)}
+          onCloseModal={() => setIsModalOpen(false)}
+        />
+      ) : (
+        <>
+            <Hero1 onOpenModal={() => setIsModalOpen(true)} />
+            <TrackRecord1/>
+            {/* <Hero2/> */}
+            <Hero3/>
+            <Hero4/>
+            <Hero5/>
+            <ScrollData/>
+            {/* <Hero />
+            <Calendar/>
+            <TrackRecord /> */}
+            <Carousel />
+            <FAQ />
+            <Final/>
+            <Footer />
+        </>
+      )
+    }
     </div>
   );
 }

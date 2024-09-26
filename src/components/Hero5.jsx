@@ -5,7 +5,7 @@ import grid3 from "../assets/grid33.png"
 function Hero5()
 {
     return(
-        <div className="max-w-[1400px] lg:mx-auto mx-2">
+        <div role="Hero5" className="max-w-[1400px] lg:mx-auto mx-2">
             <div className="lg:grid grid-cols-3 gap-4 p-4">
 
                 <div className="lg:grid grid-cols-6 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300 lg:mb-0 mb-5">

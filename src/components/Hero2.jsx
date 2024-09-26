@@ -71,7 +71,7 @@ function Hero2()
 
     
     return (
-        <div className="max-w-[1400px] lg:h-[650px] h-[1150px] rounded-lg p-4 bg-gray-600 lg:mx-auto mx-4 mb-2">
+        <div role="Hero2" className="max-w-[1400px] lg:h-[650px] h-[1150px] rounded-lg p-4 bg-gray-600 lg:mx-auto mx-4 mb-2">
             <div className="lg:grid grid-cols-2">
                 <div className="flex flex-col gap-8 justify-center w-full mb-4">
                     <div className="flex items-center lg:justify-start justify-center mt-4 mx-3">

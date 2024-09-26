@@ -1,7 +1,7 @@
 import Gird1 from "../assets/grid1.png";
 function Hero3() {
   return (
-    <div className="max-w-[1400px] h-auto lg:mx-auto mx-2">
+    <div role="Hero3" className="max-w-[1400px] h-auto lg:mx-auto mx-2">
       <div className="p-4 flex flex-col gap-5">
         <div className="text-extrabold lg:text-[70px] text-[50px] font-bold text-center">
           <h1>Everything you need in a scheduling app</h1>

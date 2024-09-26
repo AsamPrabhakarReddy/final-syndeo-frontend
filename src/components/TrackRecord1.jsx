@@ -4,7 +4,7 @@ import { Clock8, Earth, CalendarCheck, Laptop } from "lucide-react";
 function TrackRecord1()
 {
     return(
-        <div className="max-w-[1400px] lg:h-[200px] h-[320px] p-4 mx-auto lg:mt-[70px] mt-0">
+        <div role="TrackRecord1" className="max-w-[1400px] lg:h-[200px] h-[320px] p-4 mx-auto lg:mt-[70px] mt-0">
              <div className="lg:hidden block lg:mb-0 mb-4"> 
                  <button className=" w-full bg-black text-white rounded-full hover:bg-green-600 lg:p-0 p-4 m-2">
                     Get Started Now
