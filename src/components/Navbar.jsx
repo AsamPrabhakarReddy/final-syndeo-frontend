@@ -62,7 +62,7 @@ const Navbar = () => {
               <h1 className="w-full text-2xl text-colorFour font-bold m-4 cursor-pointer">
                 SYNDÈO.
               </h1>
-              <ul className=" uppercase p-4">
+              <ul className=" flex flex-col uppercase p-4">
                 <li className="p-4 border-b border-gray-600 text-colorThree cursor-pointer font-medium dark:text-white">
                   <a href="/">Home</a>
                 </li>

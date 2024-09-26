@@ -16,7 +16,8 @@ function Hero3() {
             <img className="rounded-lg" src={Gird1} alt="Grid 1" />
           </div>
           <div className="lg:col-span-6 font-bold text-2xl">
-           <p className=""> --------------------------------------------------------------------------------------------------------------------------------------</p>
+           <p className="lg:block md:hidden hidden"> --------------------------------------------------------------------------------------------------------------------------------------</p>
+           <p className="lg:hidden md:hidden lg:mx-0 mx-auto">-----------------------------------------------</p>
           </div>
           <div className="col-span-3 p-[10px] "> {/* Fixed className */}
             <h1 className="text-3xl font-bold">A tailored link ready for every scenario</h1>

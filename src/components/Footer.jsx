@@ -15,7 +15,7 @@ const Footer = () => {
                 <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
                   Services
                 </h4>
-                <ul className="pl-0 mt-4 space-y-3 list-none">
+                <ul className="pl-6 mt-4 space-y-3 list-none flex flex-col justify-center items-center">
                   <li className=" flex items-center justify-center">
                     <a
                       href="/"
@@ -63,7 +63,7 @@ const Footer = () => {
                 <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
                   Connect
                 </h4>
-                <ul className="pl-0 mt-4 space-y-3 list-none">
+                <ul className="pl-8 mt-4 space-y-3 list-none flex flex-col  justify-center">
                   <li className=" flex items-center justify-center">
                     <a
                       href="/contact"
@@ -111,7 +111,7 @@ const Footer = () => {
                 <h4 className="text-sm leading-5 font-bold tracking-wider uppercase flex justify-center items-center mt-1 text-white">
                   Company
                 </h4>
-                <ul className="pl-0 mt-4 space-y-3 list-none">
+                <ul className="pl-8 mt-4 space-y-3 list-none flex flex-col  justify-center">
                   <li className=" flex items-center justify-center">
                     <a
                       href="/privacy"
@@ -222,7 +222,7 @@ const Footer = () => {
               </a>
             </div>
             <div className="flex justify-center items-center">
-              <p className="md:text-sm text-xs text-white">
+              <p className="md:text-sm text-xs text-white lg:mt-0 mt-7">
                 Copyright © 2024 Syndèo. All rights reserved.
               </p>
             </div>

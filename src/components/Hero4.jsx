@@ -9,10 +9,10 @@ import "../../src/App.css"
 function Hero4()
 {
     return(
-        <div className="max-w-[1400px] mx-auto ">
-           <div className="lg:grid grid-cols-2 gap-6 p-4">
+        <div className="max-w-[1400px] lg:mx-auto mx-2">
+           <div className="lg:grid grid-cols-2 lg:gap-6  p-4">
                 {/* // Grid 1 */}
-                <div className="lg:grid grid-cols-5 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300">
+                <div className="lg:grid grid-cols-5 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300 lg:mb-0 mb-5">
                     <div className="text-4xl font-bold rounded-full bg-gray-800 text-white w-[60px] h-[60px] flex items-center justify-center m-8 p-4">
                         02
                     </div>
@@ -96,7 +96,8 @@ function Hero4()
                     </div>
 
                     <div className="lg:col-span-5 font-bold text-2xl">
-                        <p className=""> ----------------------------------------------------------------</p>
+                        <p className="lg:block hidden"> -----------------------------------------------------------------</p>
+                        <p className="lg:hidden ">-----------------------------------------------</p>
                     </div>
                     <div className="col-span-2 p-[5px] ml-3 "> {/* Fixed className */}
                         <h1 className="text-3xl font-bold">Connect all <br/> your calendars</h1>
@@ -157,7 +158,8 @@ function Hero4()
                             </div>
                     
                     <div className="lg:col-span-5 font-bold text-2xl">
-                        <p className=""> -----------------------------------------------------------------</p>
+                        <p className="lg:block hidden"> -----------------------------------------------------------------</p>
+                        <p className="lg:hidden ">-----------------------------------------------</p>
                     </div>
                    
                     <div className="col-span-2 p-[5px] ml-3 "> {/* Fixed className */}

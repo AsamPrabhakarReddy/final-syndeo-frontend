@@ -5,10 +5,10 @@ import grid3 from "../assets/grid33.png"
 function Hero5()
 {
     return(
-        <div className="max-w-[1400px] mx-auto">
+        <div className="max-w-[1400px] lg:mx-auto mx-2">
             <div className="lg:grid grid-cols-3 gap-4 p-4">
 
-                <div className="lg:grid grid-cols-6 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300">
+                <div className="lg:grid grid-cols-6 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300 lg:mb-0 mb-5">
                     <div className="col-span-2 text-4xl font-bold rounded-full bg-gray-800 text-white w-[60px] h-[60px] flex items-center justify-center m-8 p-4">
                         04
                     </div>
@@ -16,7 +16,8 @@ function Hero5()
                         <img className="rounded-xl" src={grid1} alt="Grid 1" />
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
-                        <p className=""> ------------------------------------------</p>
+                        <p className="lg:block hidden"> ------------------------------------------</p>
+                        <p className="lg:hidden "> -----------------------------------------------</p>
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Scheduling for your teams</h1>
@@ -26,7 +27,7 @@ function Hero5()
                     </div>
                 </div>
 
-                <div className="lg:grid grid-cols-6 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300">
+                <div className="lg:grid grid-cols-6 border-l-[15px] border-r-2 border-y-2 border-black rounded-lg gap-4 bg-gray-300 lg:mb-0 mb-5">
                     <div className="col-span-2 text-4xl font-bold rounded-full bg-gray-800 text-white w-[60px] h-[60px] flex items-center justify-center m-8 p-4">
                         05
                     </div>
@@ -34,7 +35,8 @@ function Hero5()
                         <img className="rounded-xl h-[192px]" src={grid2} alt="Grid 1" />
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
-                        <p className=""> ------------------------------------------</p>
+                        <p className="lg:block hidden"> ------------------------------------------</p>
+                        <p className="lg:hidden "> -----------------------------------------------</p>
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Route bookers to the right person</h1>
@@ -52,7 +54,8 @@ function Hero5()
                         <img className="rounded-xl" src={grid3} alt="Grid 1" />
                     </div>
                     <div className="lg:col-span-6 font-bold text-2xl">
-                        <p className=""> ------------------------------------------</p>
+                        <p className="lg:block hidden"> ------------------------------------------</p>
+                        <p className="lg:hidden "> -----------------------------------------------</p>
                     </div>
                     <div className="col-span-6 p-[5px] text-center "> {/* Fixed className */}
                         <h1 className="text-[30px] font-bold">Avoid meeting overload</h1>
