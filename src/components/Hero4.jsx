@@ -160,7 +160,7 @@ function Hero4()
                         03
                     </div>
                     <div className="col-span-4 w-full h-full p-3 pb-[115px]">
-                    <div class="relative overflow-hidden h-[300px]">
+                    <div class="relative overflow-hidden h-[300px] flex flex-col justify-center items-center">
                                 <div class="animate-circular-vertical-scroll flex flex-col  gap-5">
                                 
                                     <div class="w-[400px] h-[100px] shadow-xl bg-white flex items-center rounded-lg">
