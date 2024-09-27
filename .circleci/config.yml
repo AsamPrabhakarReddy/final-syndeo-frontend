@@ -53,7 +53,7 @@ jobs:
       # Sync build output to S3
       - run:
           name: Sync to S3
-          command: aws s3 sync ./dist s3://syndeo-frontend --delete
+          command: aws s3 sync ./dist s3://prabhakarcdn.com --delete
 
 workflows:
   version: 2
